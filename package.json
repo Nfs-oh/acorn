@@ -1,0 +1,20 @@
+{
+  "name": "acorn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development --name index.js --entry ./index.js -o ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^8.7.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

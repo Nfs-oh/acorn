@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ast</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no,viewport-fit=cover"/>
+	<!-- <script type="text/javascript" src="./dist/main.js"></script> -->
+	<script type="text/javascript" src="./acorn.js"></script>
+
+</head>
+<body>
+	<div>测试 ast</div>
+	<script type="text/javascript">
+		var source = `function hello() {console.log(123);}`;
+		var ast = acorn.parse(source, {
+      sourceType: "script",
+    });
+	</script>
+</body>
+</html>
