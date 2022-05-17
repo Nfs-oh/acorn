@@ -4946,7 +4946,6 @@
   // [api]: https://developer.mozilla.org/en-US/docs/SpiderMonkey/Parser_API
 
   function parse(input, options) {
-    debugger
     return Parser.parse(input, options)
   }
 
